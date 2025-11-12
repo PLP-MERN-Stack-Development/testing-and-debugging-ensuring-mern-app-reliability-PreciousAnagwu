@@ -85,7 +85,7 @@ Ensure your tests are using a mocked database or a test database URI.
 
 Make sure mongoose.connect runs before the tests begin.
 
-3#   👩‍💻 Author
+##   👩‍💻 Author
 
 Anagwu Precious Chinemerem
 📍 Port Harcourt, Nigeria
