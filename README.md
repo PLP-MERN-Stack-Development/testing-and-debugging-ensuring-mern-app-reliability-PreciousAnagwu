@@ -37,7 +37,7 @@ This will output test results, including coverage data.
 ##  Screenshot
 ![Coverage Report](./Screenshot_bugs.png)
 
-🧰 Debugging Tools and Techniques
+##   🧰 Debugging Tools and Techniques
 
 Debugging was implemented using several methods to identify and fix application errors:
 
@@ -61,9 +61,6 @@ Launched the debugger with:
 
 node --inspect server.js
 
-
-Then accessed it through Chrome’s DevTools (chrome://inspect) to step through backend logic.
-
 🔹 4. Error Boundaries in React
 
 Implemented React error boundaries to catch component errors and display fallback UI instead of crashing the entire app.
@@ -72,7 +69,7 @@ Implemented React error boundaries to catch component errors and display fallbac
 
 Custom middleware in the backend handles errors and sends clear JSON error responses to the client.
 
-✅ Expected Outcome
+##   ✅ Expected Outcome
 
 All unit and integration tests should pass.
 
@@ -80,7 +77,7 @@ Coverage should show over 80% for statements, branches, and functions.
 
 Application should gracefully handle runtime errors both on server and client sides.
 
-⚠️ Common Issues
+##   ⚠️ Common Issues
 
 If you encounter MongoDB connection errors during testing:
 
@@ -88,7 +85,7 @@ Ensure your tests are using a mocked database or a test database URI.
 
 Make sure mongoose.connect runs before the tests begin.
 
-👩‍💻 Author
+3#   👩‍💻 Author
 
 Anagwu Precious Chinemerem
 📍 Port Harcourt, Nigeria
